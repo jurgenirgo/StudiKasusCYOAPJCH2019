@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KomponenDasarActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Elex Media"
+        android:textColor="#E53935"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:textAllCaps="false"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Penerbit Buku Indonesia"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textAllCaps="false"
+        />
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/elex"
+        android:layout_gravity="center"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:backgroundTint="@color/colorAccent"
+        android:drawableLeft="@drawable/ic_person"
+        android:drawablePadding="20dp"
+        android:drawableTint="@color/colorBlack"
+        android:hint="Username"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:backgroundTint="@color/colorAccent"
+        android:drawableLeft="@drawable/ic_lock"
+        android:drawablePadding="20dp"
+        android:drawableTint="@color/colorBlack"
+        android:hint="Password"
+        />
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="9dp"
+        android:text="Ingatkan Saya"
+        android:drawablePadding="20dp"
+        android:drawableTint="@android:color/black"
+        />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Masuk"
+        android:textColor="@android:color/white"
+        android:background="@color/colorPrimary"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        />
+</LinearLayout>

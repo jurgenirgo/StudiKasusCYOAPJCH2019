@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Scale Type"
+        android:textSize="30sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Center"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"
+            android:textAlignment="center"
+            android:layout_marginTop="10dp"
+            />
+
+
+        <ImageView
+            android:id="@+id/iconCenter"
+            android:layout_marginTop="20dp"
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:src="@drawable/coba"
+            android:scaleType="center"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CenterCrop"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            />
+
+        <ImageView
+            android:id="@+id/iconCenterCrop"
+            android:layout_marginTop="20dp"
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:src="@drawable/coba"
+            android:scaleType="centerCrop"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CenterInside"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            />
+
+        <ImageView
+            android:id="@+id/iconCenterInside"
+            android:layout_marginTop="20dp"
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:src="@drawable/coba"
+            android:scaleType="centerInside"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FitCenter"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            />
+        <ImageView
+            android:id="@+id/iconFitCenter"
+            android:layout_marginTop="20dp"
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:src="@drawable/coba"
+            android:scaleType="fitCenter"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FitStart"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            />
+
+        <ImageView
+            android:id="@+id/iconfitStart"
+            android:layout_marginTop="20dp"
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:src="@drawable/coba"
+            android:scaleType="fitStart"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FitEnd"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            />
+        <ImageView
+            android:id="@+id/iconFitEnd"
+            android:layout_marginTop="20dp"
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:src="@drawable/coba"
+            android:scaleType="fitEnd"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FitXY"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            />
+        <ImageView
+            android:id="@+id/iconfitXY"
+            android:layout_marginTop="20dp"
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:src="@drawable/coba"
+            android:scaleType="fitXY"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Matrix"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            />
+
+        <ImageView
+            android:id="@+id/iconMatrix"
+            android:layout_marginTop="20dp"
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:src="@drawable/coba"
+            android:scaleType="matrix"
+            />
+    </LinearLayout>
+</ScrollView>
